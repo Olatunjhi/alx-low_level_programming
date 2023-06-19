@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *functoin_main - To print every last digit of random value
+ *@functoin_main - To print every last digit of random value
  *@parameter - n.. hold random value, lastDigit.. hold last digit. e.tc
  *section header - stdlib.h, time.h, stdio.h
- *Return_main - returned value zero
+ *@Return_main - returned value zero
  */
 
 int main(void)
