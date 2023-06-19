@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *main(void) - To print every last digit of random value
+ *functoin_main - To print every last digit of random value
  *@parameter - n.. hold random value, lastDigit.. hold last digit. e.tc
  *section header - stdlib.h, time.h, stdio.h
- *Return - returned value zero
+ *Return_main - returned value zero
  */
 
 int main(void)
@@ -30,5 +30,5 @@ else
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 }
 
-return 0;
+return (0);
 }
