@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - To print alphabet in lowercase to stdo.
+ *print_alphabet - To print alphabet in lowercase to stdo.
  *
  *Return: always success o.
  */
