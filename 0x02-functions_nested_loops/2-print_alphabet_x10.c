@@ -2,7 +2,7 @@
 
 
 /**
- *print_alphabet_x10: To print lowercase alphabet to stdo.
+ *print_alphabet_x10 - To print lowercase alphabet to stdo.
  *
  *Return: always 0.
  */
