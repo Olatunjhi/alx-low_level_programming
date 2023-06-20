@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_putchar - To print '_putchar' to stdio
+ *main - To print '_putchar' to stdo
  *
- *Return - On success 0.
+ *Retur: Always 0.
  */
 
 
