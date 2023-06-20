@@ -3,7 +3,7 @@
 /**
  *main - To print '_putchar' to stdo
  *
- *Retur: Always 0.
+ *Return: Always 0.
  */
 
 
