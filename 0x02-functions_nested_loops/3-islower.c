@@ -3,7 +3,7 @@
 
 /**
  *_islower - To check for lowercase alphabet.
- *@c - It serve as ascii value.
+ *@c: It serve as ascii value.
  *
  *Return: always 0.
  */
