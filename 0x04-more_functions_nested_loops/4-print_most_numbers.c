@@ -2,8 +2,6 @@
 
 /**
  *print_most_numbers - To print 0 to 9 and skip 4 and 5.
- *
- *Return: always 0.
  */
 
 
@@ -20,7 +18,7 @@ void print_most_numbers(void)
 			continue;
 		}
 
-		_putchar(number);
+		_putchar(number + '0');
 	}
 
 	_putchar('\n');
