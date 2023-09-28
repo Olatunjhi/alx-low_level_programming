@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * _strlen_recursion - Function that print length of a string
- * *s@: pointer
- * s@: variable
+ * @*s: pointer
+ * @s: variable
+ * return: 0 and length of string
  *
  */
 
@@ -10,7 +11,7 @@ int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		return 0;
+		return (0);
 	}
 	else
 	{
