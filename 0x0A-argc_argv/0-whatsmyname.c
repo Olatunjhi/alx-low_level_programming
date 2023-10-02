@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - main function .
@@ -10,6 +10,13 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	char *arg = argv[0];
+
+	for (int i = 0; arg[i] != '\0'; i++)
+	{
+		_putchar(arg[i]);
+	}
+
+	_putchar('\n');
 	return (0);
 }
