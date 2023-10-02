@@ -4,7 +4,8 @@
 /**
  * main - Funtion that count for command line argument
  * @argc: argument count
- * @argv: argument velocity or array
+ * @argv: argument velocity
+ * @*argv[]: argument array
  *
  * return: Always 0
  */
