@@ -7,7 +7,7 @@
  * @argv: argument velocity
  * @*argv[]: argument array
  *
- * return: Always 0
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
