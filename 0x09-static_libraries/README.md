@@ -1,0 +1,1 @@
+All About Static library
