@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * *create_array - create array of character
+ * create_array - create array of character
  * @size: function parameter
  * @c: function parameter
  *
@@ -26,5 +26,4 @@ char *create_array(unsigned int size, char c)
 	}
 
 	return (charArray);
-	
 }
