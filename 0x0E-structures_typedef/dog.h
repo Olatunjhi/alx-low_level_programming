@@ -2,6 +2,11 @@
 #define DOG_H
 /**
  * dog - structure name
+ * @name: char pointer
+ * @age: float type
+ * @owner: char pointer
+ *
+ * Description: structure of dog
  */
 struct dog
 {
