@@ -22,6 +22,7 @@ void print_dog(struct dog *d);
  * @name: char pointer
  * @age: float type
  * @owner: char pointer
+ * Descriptiom: structure of dog
  */
 typedef struct
 {
@@ -29,4 +30,6 @@ typedef struct
 	float age;
 	char *owner;
 }dog_t;
+
+dog_t *new_dog(char *name, float age, char *owner);
 #endif /* DOG_H */
