@@ -9,7 +9,6 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	int i = 0;
 
 	list_t *newNode;
 
@@ -44,7 +43,9 @@ list_t *add_node(list_t **head, const char *str)
 int length(const char *str)
 {
 	int i;
-	int count = 0;
+	int count;
+
+	count = 0;
 
 	if (str == NULL)
 	{
