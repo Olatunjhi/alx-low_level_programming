@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * *add_node_end - To add new node at the end
+ * @head: first parameter
+ * @str: second parameter
+ * Return: address of new node
+ */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	int i;
@@ -14,26 +20,25 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 
 	newNode->str = strdup(str);
-
 	newNode->len = length(str);
-
-	temp = *head;
-
-	for (i = 1; temp->next != NULL; i++)
-	{
-		temp = temp->next;
-	}
-
 	newNode->next = NULL;
 
-	temp->next = newNode;
-
-	if (temp->next == NULL)
+	if (*head == NULL)
 	{
-		return (NULL);
+		*head = newNode;
+	}
+	else
+	{
+		temp = *head;
+		for (i = 1; temp->next != NULL; i++)
+		{
+			temp = temp->next;
+		}
+
+		temp->next = newNode;
 	}
 
-	return (temp->next);
+	return (newNode);
 }
 
 /**
