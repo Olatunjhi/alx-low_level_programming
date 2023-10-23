@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * listint_len - To print total number of nodes
+ * @h: parameter
+ *
+ * Return: (i)
+ */
 size_t listint_len(const listint_t *h)
 {
 	int i;
